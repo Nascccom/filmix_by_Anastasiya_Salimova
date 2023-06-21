@@ -1,0 +1,30 @@
+.movieList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movieCard {
+    width: 300px;
+    color: #fff;
+    margin: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: var(--secondary-color);
+    position: relative;
+    overflow: hidden;
+}
+
+.movieCard img {
+    display: inline-block;
+    width: 100%;
+    border-radius: var(--imageBorderRaduis);
+    overflow: hidden;
+}
+
+.movieInfo {
+    position: relative;
+}
+
+.movieInfo {
+
+}
